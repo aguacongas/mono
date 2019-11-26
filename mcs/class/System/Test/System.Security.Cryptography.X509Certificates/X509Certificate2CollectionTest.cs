@@ -579,6 +579,7 @@ namespace MonoTests.System.Security.Cryptography.X509Certificates {
 		}
 
 		[Test]
+		[Category ("NotWasm")]
 		public void Find_FindByIssuerName ()
 		{
 			// empty
@@ -692,6 +693,7 @@ namespace MonoTests.System.Security.Cryptography.X509Certificates {
 		}
 
 		[Test]
+		[Category ("NotWasm")]
 		public void Find_FindBySubjectName ()
 		{
 			// empty
